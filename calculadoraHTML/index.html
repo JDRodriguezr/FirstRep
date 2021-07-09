@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Calculadora</h1><br>
-    
+    <h1>Calculadora</h1>
+    <div>
     <form class="calculator" name="calc">
     <input class="value" type="text" name="txt" readonly="">
     <span class="numero clear" onclick = "document.calc.txt.value = ''">C</span>
@@ -31,5 +31,6 @@
     <span class="numero" onclick = "document.calc.txt.value += '.'">.</span>
     <span class="numero equal" onclick = "document.calc.txt.value = eval(calc.txt.value)">=</span>
     </form>
+</div>
 </body>
 </html>
